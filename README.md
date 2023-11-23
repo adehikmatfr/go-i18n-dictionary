@@ -22,6 +22,22 @@ Here is an example of how to use the i18n-dictionary package:
 	fmt.Println(dic.Format(dictionary.HalloNamef, "ade"))
 ```
 
+Result example
+
+```bash
+PS C:\playground\go\i18n\example> go run main.go
+Hello
+こんにちは
+こんにちは ade
+```
+
+Unit Test Coverage
+
+```bash
+PS C:\playground\go\i18n> go test . -cover
+ok      github.com/adehikmatfr/go-i18n-dictionary       17.083s coverage: 92.9% of statements
+```
+
 ## Contributing
 
 Feel free to contribute by opening issues or submitting pull requests on the GitHub repository: https://github.com/adehikmatfr/go-i18n-dictionary
